@@ -1,0 +1,15 @@
+{
+  "name": "meta-write",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -r --filter website run dev",
+    "build:packages": "pnpm -r --filter \"./packages/**\" run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}
